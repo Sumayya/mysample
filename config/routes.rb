@@ -1,9 +1,11 @@
 Mysample::Application.routes.draw do
+  get "users/new"
+  get "user_pages/signup"
   get "static_pages/home"
 
   get "static_pages/help"
    get "static_pages/about"
-  
+   get "static_pages/contact"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
